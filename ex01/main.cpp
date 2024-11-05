@@ -6,8 +6,16 @@
 /*   By: ashirzad <ashirzad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 16:45:10 by ashirzad          #+#    #+#             */
-/*   Updated: 2024/11/05 16:45:17 by ashirzad         ###   ########.fr       */
+/*   Updated: 2024/11/05 17:40:47 by ashirzad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <iostream>
+#include "iter.hpp"
+
+int main(void)
+{
+	std::string array[3] = {"a", "b", "c"};
+
+	::iter(array, 3, ft_print<std::string>);
+	return (0);
+}

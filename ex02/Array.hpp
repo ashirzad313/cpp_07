@@ -6,7 +6,7 @@
 /*   By: ashirzad <ashirzad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 18:14:05 by ashirzad          #+#    #+#             */
-/*   Updated: 2024/11/05 19:42:05 by ashirzad         ###   ########.fr       */
+/*   Updated: 2024/11/05 19:49:53 by ashirzad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 #define __ARRAY_HPP__
 
 #include <iostream>
+#include <cstdlib>
 
 template <class T>
 

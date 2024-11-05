@@ -2,12 +2,11 @@ SRC = main.cpp
 OBJ = $(SRC:.cpp=.o)
 CC = c++
 RM = rm -f
-CPPFLAGS = -Wall -Wextra -Werror -std=c++17 -g -fsanitize=address
+CPPFLAGS = -Wall -Wextra -Werror -std=c++17
 
 NAME = run
 
 all: $(NAME)
-
 
 $(NAME): $(OBJ)
 	$(CC) $(CPPFLAGS) $(OBJ) -o $(NAME)
